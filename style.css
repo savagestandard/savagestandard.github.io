@@ -1,0 +1,51 @@
+@font-face{
+	font-family: "Inter-Local";
+	src: url("./src/Inter.ttf");
+}
+
+body{
+	font-family: "Inter-Local", "Inter", Arial;
+	background: #171717;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: right;
+	align-items: center;
+	font-size: 1.5vw;
+
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+/*	border: solid 1px red;*/
+}
+
+.crown{
+	float: left;
+	padding: 10px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 2vw;
+	font-weight: bold;
+
+/*	border: solid 1px red;*/
+}
+
+#gallery img{
+	width: 100%;
+	height: auto;
+	margin: 10px 0px;
+/*	border: solid 1px red;*/
+}
