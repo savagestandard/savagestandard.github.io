@@ -11,7 +11,7 @@ body{
 ul{
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding-bottom: 10px;
 	overflow: hidden;
 }
 
@@ -26,7 +26,8 @@ li a{
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 35px 16px;
+	padding-bottom: 0;
 	text-decoration: none;
 
 /*	border: solid 1px red;*/
@@ -38,7 +39,8 @@ li a{
 	color: white;
 	text-decoration: none;
 	font-size: 2vw;
-	font-weight: bold;
+	font-weight: bolder;
+	line-height: 0.8;
 
 /*	border: solid 1px red;*/
 }
@@ -48,4 +50,81 @@ li a{
 	height: auto;
 	margin: 10px 0px;
 /*	border: solid 1px red;*/
+}
+
+.container{
+	position: relative;
+	text-align: center;
+	color: white;
+	padding: 20px 0;
+}
+
+.bottom-left{
+	text-align: left;
+	font-size: 9vw;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.double-column{
+	padding: 0px 0px;
+	margin: 100px 30px;
+	display: flex;
+
+/*	border: solid 1px red;*/
+}
+
+.double-column video{
+	border: solid 1.5px #d4a732;
+}
+
+.column{
+	flex: 50%;
+	margin: 0 20px;
+
+
+/*	border: solid 1px red;*/
+}
+
+.blogtext{
+	padding: 0;
+	color: white;
+
+/*	border: solid 1px red;*/
+}
+
+.blogtext h1{
+	color: white;
+	font-weight: normal;
+}
+
+.blogtext p{
+	margin-bottom: 30px;
+}
+
+.link-button-golden{
+	color: white;
+	padding: 14px 25px;
+	text-decoration: none;
+	border: solid 1.5px #d4a732;
+}
+
+.link-button-golden:hover, .link-button-golden:active{
+	background-color: #d4a732;
+	border-color: white;:
+}
+
+footer{
+	margin: 0;
+	padding: 20px 10px;
+	padding-bottom: 0;
+	
+}
+.copyright{
+	color: white;
+	text-align: center;
+	font-size: 1vw;
+	padding: 20px 10px;
+	padding-bottom: 0;
 }
