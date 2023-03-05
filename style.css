@@ -63,13 +63,14 @@ li a{
 	text-align: left;
 	font-size: 9vw;
 	position: absolute;
-	bottom: 10px;
+	bottom: 25px;
 	left: 10px;
 }
 
 .double-column{
 	padding: 0px 0px;
 	margin: 100px 30px;
+	margin-bottom: 50px;
 	display: flex;
 
 /*	border: solid 1px red;*/
@@ -127,4 +128,10 @@ footer{
 	font-size: 1vw;
 	padding: 20px 10px;
 	padding-bottom: 0;
+}
+
+.section-title{
+	color:white;
+	font-weight: normal;
+	padding-left: 10px;
 }
